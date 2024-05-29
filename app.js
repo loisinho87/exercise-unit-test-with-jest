@@ -22,8 +22,9 @@ function fromYenToPound(yenAmount) {
     return euroAmount * oneEuroIs.GBP;
 }
 
-// Exportar las funciones
+// Exportar las funciones y el objeto oneEuroIs
 module.exports = {
+    oneEuroIs,
     fromEuroToDollar,
     fromDollarToYen,
     fromYenToPound
